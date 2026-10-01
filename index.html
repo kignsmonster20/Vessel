@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10131c">
+  <title>Vessel — Una forma de escuchar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">ø</span> VESSEL / notes</div>
+    <div class="counter"><span id="chapterNow">01</span> / <span id="chapterTotal">13</span></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">una pequeña guía para escuchar un disco</div>
+      <h1>Vessel<span>.</span></h1>
+      <p class="hero-sub">No es una explicación definitiva. Es solamente una forma sencilla de entrar en lo que hay detrás de las canciones.</p>
+      <button class="start" id="startBtn">empezar a escuchar <span>↓</span></button>
+      <div class="scroll-note">desliza lentamente</div>
+    </section>
+
+    <section class="intro chapter" data-index="1">
+      <div class="chapter-label">01 — antes de empezar</div>
+      <div class="wide-copy">
+        <p class="big">Hay discos que cuentan una historia.<br><em>Este parece contar una conversación.</em></p>
+        <p>En <strong>Vessel</strong>, las canciones pueden sentirse como pensamientos que aparecen cuando uno está solo: miedo, dudas, identidad, ganas de escapar, ganas de quedarse y la necesidad de encontrar algo —o a alguien— que haga que todo tenga un poco más de sentido.</p>
+        <p>Por eso funciona mejor si no intentas entenderlo todo de una vez. Escucha primero. Después vuelve a las palabras.</p>
+      </div>
+    </section>
+
+    <section class="track chapter" data-index="2">
+      <div class="track-no">01</div>
+      <div class="track-info">
+        <div class="chapter-label">Ode To Sleep</div>
+        <h2>Empezar desde el caos.</h2>
+        <p>La primera canción presenta una pelea interna. Una parte de la persona quiere hacer las cosas bien; otra está cansada, confundida y asustada. Es como abrir la puerta de la mente de alguien justo cuando está intentando ordenar todo lo que siente.</p>
+        <div class="thought">“No siempre sabemos qué estamos sintiendo hasta que intentamos explicárselo a alguien.”</div>
+      </div>
+    </section>
+
+    <section class="track chapter" data-index="3">
+      <div class="track-no">02</div>
+      <div class="track-info">
+        <div class="chapter-label">Holding On To You</div>
+        <h2>Volver a tomar el control.</h2>
+        <p>Aquí aparece una idea importante: la mente puede llevarte a lugares que no quieres visitar. La respuesta no es fingir que todo está bien, sino recordar que todavía puedes elegir qué hacer con lo que pasa dentro de ti.</p>
+        <p>La canción habla de aferrarse a algo que te mantiene presente cuando todo lo demás se mueve demasiado rápido.</p>
+      </div>
+    </section>
+
+    <section class="track chapter" data-index="4">
+      <div class="track-no">03</div>
+      <div class="track-info">
+        <div class="chapter-label">Migraine</div>
+        <h2>Cuando pensar demasiado pesa.</h2>
+        <p>La cabeza se convierte en un lugar ruidoso. Pensamientos que se contradicen, inseguridades y una imaginación que no sabe cuándo detenerse. La canción convierte ese ruido en algo que puede observarse desde afuera.</p>
+        <div class="thought">A veces la peor parte de una preocupación es todo lo que nuestra propia cabeza construye alrededor de ella.</div>
+      </div>
+    </section>
+
+    <section class="track chapter" data-index="5">
+      <div class="track-no">04</div>
+      <div class="track-info">
+        <div class="chapter-label">House Of Gold</div>
+        <h2>Lo que uno quiere proteger.</h2>
+        <p>El disco cambia de dirección y aparece una canción mucho más cálida. Habla de cariño, familia y de querer cuidar a alguien que ha estado ahí desde antes de que uno supiera quién quería ser.</p>
+        <p>Es una canción sobre prometer presencia: no tener respuestas perfectas, pero sí querer estar.</p>
+      </div>
+    </section>
+
+    <section class="track chapter" data-index="6">
+      <div class="track-no">05</div>
+      <div class="track-info">
+        <div class="chapter-label">Car Radio</div>
+        <h2>El silencio deja espacio para pensar.</h2>
+        <p>Cuando desaparece una distracción, aparecen las cosas que normalmente intentamos evitar. La canción convierte un momento cotidiano en una pregunta mucho más grande: ¿qué hacemos cuando nos quedamos a solas con nuestra cabeza?</p>
+        <p>Y, de alguna forma, también demuestra que compartir lo que pensamos puede ser una manera de no quedarse atrapado ahí.</p>
+      </div>
+    </section>
+
+    <section class="track chapter" data-index="7">
+      <div class="track-no">06</div>
+      <div class="track-info">
+        <div class="chapter-label">Semi-Automatic</div>
+        <h2>Dos versiones de la misma persona.</h2>
+        <p>Hay días en los que uno se reconoce y días en los que parece estar funcionando en automático. La canción juega con esa dualidad: querer ser bueno, pero tener pensamientos que uno no sabe de dónde salen.</p>
+        <p>No presenta a la persona como perfecta. La presenta como humana.</p>
+      </div>
+    </section>
+
+    <section class="track chapter" data-index="8">
+      <div class="track-no">07</div>
+      <div class="track-info">
+        <div class="chapter-label">Screen</div>
+        <h2>Decir lo que cuesta decir.</h2>
+        <p>Habla de la distancia entre lo que sentimos y lo que conseguimos comunicar. Una pantalla puede conectar a dos personas, pero también puede esconder todo lo que da miedo decir directamente.</p>
+        <div class="thought">Quizá escribir algo sea fácil. Decirlo mirando a alguien a los ojos es otra historia.</div>
+      </div>
+    </section>
+
+    <section class="track chapter" data-index="9">
+      <div class="track-no">08</div>
+      <div class="track-info">
+        <div class="chapter-label">The Run And Go</div>
+        <h2>No querer ser una carga.</h2>
+        <p>El narrador pide espacio porque no sabe cómo dejar que los demás vean lo que está pasando. Pero debajo de esa necesidad de alejarse hay algo contradictorio: también quiere que alguien se quede.</p>
+        <p>Es una de esas canciones donde pedir ayuda y tener miedo de pedirla parecen la misma cosa.</p>
+      </div>
+    </section>
+
+    <section class="track chapter" data-index="10">
+      <div class="track-no">09</div>
+      <div class="track-info">
+        <div class="chapter-label">Fake You Out</div>
+        <h2>Las máscaras también cansan.</h2>
+        <p>La canción juega con la idea de aparentar seguridad mientras por dentro ocurre algo completamente distinto. También cuestiona cuánto de lo que mostramos es realmente nosotros.</p>
+        <p>Y entonces aparece una pregunta incómoda: si alguien pudiera ver todo lo que escondemos, ¿seguiría queriendo quedarse?</p>
+      </div>
+    </section>
+
+    <section class="track chapter" data-index="11">
+      <div class="track-no">10</div>
+      <div class="track-info">
+        <div class="chapter-label">Guns For Hands</div>
+        <h2>Elegir qué hacer con lo que sentimos.</h2>
+        <p>Es una canción oscura, pero su dirección es profundamente humana: tomar algo destructivo y tratar de convertirlo en otra cosa. En vez de dejar que el dolor tenga la última palabra, propone buscar una salida y acompañarse.</p>
+        <p>No se trata de negar lo malo. Se trata de no dejar que eso sea lo único que existe.</p>
+      </div>
+    </section>
+
+    <section class="track chapter" data-index="12">
+      <div class="track-no">11</div>
+      <div class="track-info">
+        <div class="chapter-label">Trees</div>
+        <h2>Encontrar a alguien al otro lado.</h2>
+        <p>Después de todo el ruido, llega una escena casi silenciosa: estar frente a algo que no se puede explicar del todo y querer acercarse. La canción se siente como una búsqueda de conexión, de ser visto y de poder finalmente encontrarse con alguien.</p>
+        <div class="thought">Después de hablar tanto sobre la soledad, terminar encontrando compañía cambia el significado de todo lo anterior.</div>
+      </div>
+    </section>
+
+    <section class="track chapter" data-index="13">
+      <div class="track-no">12</div>
+      <div class="track-info">
+        <div class="chapter-label">Truce</div>
+        <h2>Y al final, quedarse.</h2>
+        <p>La última canción no intenta resolver toda la vida. Hace algo más sencillo: propone llegar hasta mañana. Es una despedida tranquila, una pausa después de todo lo que pasó.</p>
+        <p>Y si uno escucha <strong>Vessel</strong> completo, puede sentirse como un recorrido desde “no sé qué hacer con todo esto” hasta “quizá no tengo que hacerlo completamente solo”.</p>
+      </div>
+    </section>
+
+    <section class="reveal chapter" data-index="14">
+      <div class="chapter-label">una última cosa</div>
+      <div class="reveal-card">
+        <div class="tiny">esto ya no es parte del análisis</div>
+        <h2>Creo que ahora entiendo<br>por qué quería que lo escucharas.</h2>
+        <p>Hay una parte de todo esto que no tiene mucho que ver con Tyler, ni con Josh, ni siquiera con el álbum.</p>
+        <p>Porque mientras iba pensando en lo que significan estas canciones, me di cuenta de que algunas cosas me estaban recordando a una persona en específico.</p>
+        <p class="name-line">Dayana...</p>
+        <p>No porque cada canción describa exactamente lo que siento. Más bien porque <em>Vessel</em> habla mucho de intentar entender lo que pasa dentro de uno, de encontrar a alguien con quien poder ser uno mismo y de querer quedarse cerca de esa persona.</p>
+        <p>Y creo que eso es lo que estaba intentando decirte sin saber cómo decirlo.</p>
+      </div>
+    </section>
+
+    <section class="question chapter" data-index="15">
+      <div class="question-wrap">
+        <div class="chapter-label">la parte que no sabía cómo hacertela</div>
+        <h2>Entonces...</h2>
+        <p>Me gustas. Me gusta hablar contigo, estar contigo y la forma en que poco a poco te has vuelto alguien importante para mí.</p>
+        <p>No quiero convertir esto en algo incómodo ni hacer que sientas que tienes que responder de una determinada manera.</p>
+        <p class="question-main">¿Te gustaría intentar algo conmigo?</p>
+        <div class="answer-buttons">
+          <button class="answer yes" id="yesBtn">sí</button>
+          <button class="answer no" id="noBtn">no</button>
+        </div>
+        <p class="small-note">No hay respuesta incorrecta. Solo quería que lo supieras.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="yesModal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="close" data-close="yesModal">×</button>
+      <div class="tiny">entonces...</div>
+      <h2>:P</h2>
+      <p>Creo que esta canción expresara mis sentimientos de una mejor manera.</p>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/v8GwUos_Mtw?rel=0" title="twenty one pilots — Smithereens" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="send-code">
+        <span>mándame esto:</span>
+        <button id="copyBtn">:P</button>
+      </div>
+      <p class="tiny final-tiny">y así... voy a entender exactamente lo que significa.</p>
+    </div>
+  </div>
+
+  <div class="modal" id="noModal" aria-hidden="true">
+    <div class="modal-box no-box">
+      <button class="close" data-close="noModal">×</button>
+      <div class="tiny">está bien</div>
+      <h2>De verdad.</h2>
+      <p>No tienes que sentir lo mismo que yo, y no puedo obligarte a hacerlo.</p>
+      <p>Gracias por leer todo esto y por decirme lo que realmente sientes. Prefiero una respuesta sincera antes que cualquier otra cosa.</p>
+      <p class="no-final">No dejes que nadie te hable tanto de Twenty Øne Pilots como yo...</p>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">copiado :P</div>
+  <script src="script.js"></script>
+</body>
+</html>
